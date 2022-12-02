@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eu te amo!</title>
+        <style> * {box-sizing: border-box;}
+                            body {font-family: Arial;}
+
+        h1 {text-align: center;}
+
+        #img {text-align: center;}        
+
+        #Bn {position: absolute;right: 34%; }
+
+        #container {width: 100;display: flex;flex-direction: column;align-items: center; }
+
+        #container footer {display: flex; justify-content: space-between;max-width: 433px; width: 100%;}
+
+
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">        
+
+        function mensagem(){alert('YEY THANK U LOVE U')}
+
+        function f(){const generateRandomValue = () => Math.random() * (300 - 50) + 50;const formatValue = (value) => Math.ceil(value) + 'px';const top = generateRandomValue();const left = generateRandomValue(); Bn.style.top =  formatValue(top); Bn.style.left = formatValue(left);}
+
+        </script>
+
+
+    <body>
+    
+        <div id="container">
+            <h1>você é a melhor mãe do mundo?</h1>
+            <div id="img">
+                <img src="https://media.tenor.com/zGm5acSjHCIAAAAC/cat-begging.gif" alt="Pfv">
+            </div>
+        
+            <footer>
+                <button id="yes" onclick="mensagem()">Yes</button>
+                <div id="Bn">
+                    <button onmouseenter="f()">
+                        NO
+                    </button>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
