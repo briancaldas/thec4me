@@ -1,0 +1,178 @@
+<html>
+    <table>
+        <div>
+            <h3>alunos ja matriculados</h3>
+        </div> 
+        <div>
+            <title>tabela de idade de alunos</title>
+        </div>    
+        <div>  
+            <tr>
+                <th>alunos</th>
+                <th>idade</th>    
+            </tr>
+        </div>
+        <span>
+            <tr>
+                <td>Alex Murtha</td>
+                <td>22 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Aline Ribeiro</td>
+                <td>21 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Carlos Henrrique</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+
+                <td>Giancarlos Prato</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>vini rourenço</td>
+                <td>17 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Yan Carlos</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Laisa Matos</td>
+                <td>17 anos</td>
+            </tr>    
+        </span>  
+        <span>
+            <tr>
+                <td>Christian Catrinck</td>
+                <td>20 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Rafael Chiappetta</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Gabriel Muniz</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Nicolas Baran</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Aline Ribeiro</td>
+                <td>21 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Maxwell Santos</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Bryan</td>
+                <td>16 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Brian Oliveira</td>
+                <td>16 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Ana Macedo</td>
+                <td>16 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Karine Reis</td>
+                <td>21 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Rebeca Franclin</td>
+                <td>18 anos</td>
+            </tr>
+        </span>  
+        <span>
+            <tr>
+                <td>Felipe Valentim</td>
+                <td>20 anos</td>
+            </tr>
+        </span>  
+    </table>
+</html>
+<html>
+    <head>
+        <Title>formulario</Title>
+    </head>
+    <body>
+        <h2>formulario para inscrição do curso tech4me</h2>
+        <form action="http://localhost:3003/alunos" method="GET">
+            <div>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="senha" placeholder="sobrenome">
+            </div>
+            <div>
+                <input type="TEXT" name="cpfCnpj" placeholder="CPF OU CNPJ"> 
+            </div>   
+            <div>
+                <textarea name="descricao" id="decricaotext" cols="30" rows="10">Por que quero participar neste curso?</textarea>
+            </div>
+            <div>
+                <label>Sexo: feminino</label>
+                <input type="radio" name="tipo"  volue="fem" required>
+                <label>masculino</label>
+                <input type="radio" name="tipo"  value="masc" required>
+                
+            </div>
+            <div>
+                <label>você possui computador? </label>
+                <input type="checkbox" name="tipo" value="alerta">
+            </div>
+            <h3><em>seu endereço</em> </h3> 
+            <label> Qual seu CEP?</label>
+            <div>
+               <input type="texto" name="cep" placeholder="CEP">
+            </div>
+            
+            <label>Qual estado você reside?</label>
+            <div>
+                <select name="estados"  required>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceara</option>
+                </select>
+            </div>
+            <button type="submit">Matricular</button> 
+        
+        </form>
+    </body>
+</html>
