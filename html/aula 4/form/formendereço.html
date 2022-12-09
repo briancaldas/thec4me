@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="cust.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario-endereço</title>
+</head>
+<body background="https://gkpb.com.br/wp-content/uploads/2020/06/novo-logo-casas-bahia-2-scaled.jpg">
+    <h2>Formululario de compra</h2>
+        <form action="http://localhost:3003/alunos" method="GET">
+            <div>
+                <p><strong>1.Nome completo e Sexo</strong></p>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="senha" placeholder="sobrenome">
+            </div>
+            <div>
+                <label>Sexo: feminino</label>
+                <input type="radio" name="tipo"  volue="fem" required>
+                <label>masculino</label>
+                <input type="radio" name="tipo"  value="masc" required>
+                               
+            </div>
+            <div>
+                <p><strong>2.CPF OU CNPJ</strong></p>
+                <input type="TEXT" name="cpfCnpj" placeholder="CPF OU CNPJ"> 
+            </div>   
+            <hr>
+            <h2><em>seu endereço</em> </h2> 
+            
+            <strong>
+               <p>1.Seu cep:<input type="texto" name="cep" placeholder="CEP">
+            </p>
+               2.Sua rua:<input type="texto" name="rua" placeholder="RUA">
+            <div>
+                
+               <p>3.Ponto de referencia:<input type="texto" name="referencia" placeholder="referencia">
+               </p>4.Numero da sua residencia:<input type="texto" name="numero" placeholder="n/residencia">
+            </div>
+            <div>   
+               5.Seu estado<select name="estados"  required>
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceara</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espirito Santo</option>
+                    <option value="go">Goias</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mr">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="se">Sergipe</option>
+                    <option value="to">Tocantins</option>
+                </select>
+            </div>
+            </strong>
+            <div>
+                <button id="efetuar" onclick="mensagem()">efetuar compra</button> 
+            </div>
+        </form>
+        <script type="text/javascript">        
+
+            function mensagem(){alert('PARABENS COMPRA EFETUADA COM SUCESSO')}
+    
+            function f(){const generateRandomValue = () => Math.random() * (300 - 50) + 50;const formatValue = (value) => Math.ceil(value) + 'px';const top = generateRandomValue();const left = generateRandomValue(); Bn.style.top =  formatValue(top); Bn.style.left = formatValue(left);}
+    
+            </script>
+    </body>
+</html>
