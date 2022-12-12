@@ -1,0 +1,9 @@
+h1, div {
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: red;
+}
+.sobre , p {
+    text-align: center;
+    background-color: rgba(109, 98, 98, 0.425);
+}
